@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-17T16:36:42 IST" name="Cura Healthcare Automation Suite" finished-at="2026-04-17T16:39:17 IST" duration-ms="154938">
+    <groups>
+    </groups>
+    <test started-at="2026-04-17T16:36:42 IST" name="Authentication Tests" finished-at="2026-04-17T16:37:35 IST" duration-ms="52565">
+      <class name="com.srm.curahealth.tests.AuthenticationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:36:42 IST" name="setUp" finished-at="2026-04-17T16:37:02 IST" duration-ms="19586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithDataProvider(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:02 IST" name="verifyLoginWithDataProvider" data-provider="loginCredentials" finished-at="2026-04-17T16:37:04 IST" duration-ms="2135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John Doe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThisIsNotAPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:04 IST" name="tearDown" finished-at="2026-04-17T16:37:04 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:04 IST" name="setUp" finished-at="2026-04-17T16:37:08 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithDataProvider(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:08 IST" name="verifyLoginWithDataProvider" data-provider="loginCredentials" finished-at="2026-04-17T16:37:10 IST" duration-ms="1764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:10 IST" name="tearDown" finished-at="2026-04-17T16:37:10 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:10 IST" name="setUp" finished-at="2026-04-17T16:37:14 IST" duration-ms="3872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutNavigatesBackToHomepage()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:14 IST" name="verifyLogoutNavigatesBackToHomepage" finished-at="2026-04-17T16:37:16 IST" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutNavigatesBackToHomepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:16 IST" name="tearDown" finished-at="2026-04-17T16:37:16 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:16 IST" name="setUp" finished-at="2026-04-17T16:37:23 IST" duration-ms="7296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProtectedPagesRedirectToLoginWhenUserIsUnauthenticated()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:23 IST" name="verifyProtectedPagesRedirectToLoginWhenUserIsUnauthenticated" finished-at="2026-04-17T16:37:34 IST" duration-ms="11018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProtectedPagesRedirectToLoginWhenUserIsUnauthenticated -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AuthenticationTests@65fb9ffc]" started-at="2026-04-17T16:37:34 IST" name="tearDown" finished-at="2026-04-17T16:37:35 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.curahealth.tests.AuthenticationTests -->
+    </test> <!-- Authentication Tests -->
+    <test started-at="2026-04-17T16:37:35 IST" name="Appointment Booking Tests" finished-at="2026-04-17T16:38:04 IST" duration-ms="29479">
+      <class name="com.srm.curahealth.tests.AppointmentBookingTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:35 IST" name="setUp" finished-at="2026-04-17T16:37:38 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAppointmentBookingWithFacilityDateAndComment()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:38 IST" name="verifyAppointmentBookingWithFacilityDateAndComment" finished-at="2026-04-17T16:37:41 IST" duration-ms="2790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentBookingWithFacilityDateAndComment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:41 IST" name="tearDown" finished-at="2026-04-17T16:37:41 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:41 IST" name="setUp" finished-at="2026-04-17T16:37:53 IST" duration-ms="11973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAppointmentBookingWithReadmissionChecked()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:53 IST" name="verifyAppointmentBookingWithReadmissionChecked" finished-at="2026-04-17T16:37:57 IST" duration-ms="3149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentBookingWithReadmissionChecked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:57 IST" name="tearDown" finished-at="2026-04-17T16:37:57 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:37:57 IST" name="setUp" finished-at="2026-04-17T16:38:00 IST" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAppointmentDateFieldRejectsPastDates()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:38:00 IST" name="verifyAppointmentDateFieldRejectsPastDates" finished-at="2026-04-17T16:38:04 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentDateFieldRejectsPastDates -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AppointmentBookingTests@b2c9a9c]" started-at="2026-04-17T16:38:04 IST" name="tearDown" finished-at="2026-04-17T16:38:04 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.curahealth.tests.AppointmentBookingTests -->
+    </test> <!-- Appointment Booking Tests -->
+    <test started-at="2026-04-17T16:38:04 IST" name="Appointment History Tests" finished-at="2026-04-17T16:38:26 IST" duration-ms="21888">
+      <class name="com.srm.curahealth.tests.AppointmentHistoryTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:04 IST" name="setUp" finished-at="2026-04-17T16:38:08 IST" duration-ms="4081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAppointmentHistoryPageLoadsAfterLogin()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:08 IST" name="verifyAppointmentHistoryPageLoadsAfterLogin" finished-at="2026-04-17T16:38:10 IST" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentHistoryPageLoadsAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:10 IST" name="tearDown" finished-at="2026-04-17T16:38:11 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:11 IST" name="setUp" finished-at="2026-04-17T16:38:15 IST" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHistorySectionShowsExpectedHeaders()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:15 IST" name="verifyHistorySectionShowsExpectedHeaders" finished-at="2026-04-17T16:38:18 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHistorySectionShowsExpectedHeaders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:18 IST" name="tearDown" finished-at="2026-04-17T16:38:18 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:18 IST" name="setUp" finished-at="2026-04-17T16:38:23 IST" duration-ms="4652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMostRecentBookedAppointmentAppearsInHistory()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:23 IST" name="verifyMostRecentBookedAppointmentAppearsInHistory" finished-at="2026-04-17T16:38:26 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMostRecentBookedAppointmentAppearsInHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.AppointmentHistoryTests@5e5d171f]" started-at="2026-04-17T16:38:26 IST" name="tearDown" finished-at="2026-04-17T16:38:26 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.curahealth.tests.AppointmentHistoryTests -->
+    </test> <!-- Appointment History Tests -->
+    <test started-at="2026-04-17T16:38:26 IST" name="Multiple Appointment Tests" finished-at="2026-04-17T16:38:48 IST" duration-ms="21506">
+      <class name="com.srm.curahealth.tests.MultipleAppointmentsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.MultipleAppointmentsTests@7bedc48a]" started-at="2026-04-17T16:38:26 IST" name="setUp" finished-at="2026-04-17T16:38:30 IST" duration-ms="4099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTwoAppointmentsAppearInHistoryAndAreSortedByDate()[pri:0, instance:com.srm.curahealth.tests.MultipleAppointmentsTests@7bedc48a]" started-at="2026-04-17T16:38:30 IST" name="verifyTwoAppointmentsAppearInHistoryAndAreSortedByDate" finished-at="2026-04-17T16:38:48 IST" duration-ms="17221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwoAppointmentsAppearInHistoryAndAreSortedByDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.MultipleAppointmentsTests@7bedc48a]" started-at="2026-04-17T16:38:48 IST" name="tearDown" finished-at="2026-04-17T16:38:48 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.curahealth.tests.MultipleAppointmentsTests -->
+    </test> <!-- Multiple Appointment Tests -->
+    <test started-at="2026-04-17T16:38:48 IST" name="Form Validation Tests" finished-at="2026-04-17T16:39:17 IST" duration-ms="29096">
+      <class name="com.srm.curahealth.tests.FormValidationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:38:48 IST" name="setUp" finished-at="2026-04-17T16:38:53 IST" duration-ms="4975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAppointmentFormWithEmptyDateShowsValidationBehavior()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:38:53 IST" name="verifyAppointmentFormWithEmptyDateShowsValidationBehavior" finished-at="2026-04-17T16:38:55 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppointmentFormWithEmptyDateShowsValidationBehavior -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:38:55 IST" name="tearDown" finished-at="2026-04-17T16:38:55 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:38:55 IST" name="setUp" finished-at="2026-04-17T16:39:03 IST" duration-ms="7634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCommentFieldAcceptsLongTextWithoutTruncation()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:03 IST" name="verifyCommentFieldAcceptsLongTextWithoutTruncation" finished-at="2026-04-17T16:39:05 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommentFieldAcceptsLongTextWithoutTruncation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:05 IST" name="tearDown" finished-at="2026-04-17T16:39:05 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:05 IST" name="setUp" finished-at="2026-04-17T16:39:09 IST" duration-ms="4511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFormWithEmptyUsernameAndPasswordShowsValidationMessage()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:09 IST" name="verifyLoginFormWithEmptyUsernameAndPasswordShowsValidationMessage" finished-at="2026-04-17T16:39:10 IST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFormWithEmptyUsernameAndPasswordShowsValidationMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:10 IST" name="tearDown" finished-at="2026-04-17T16:39:11 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:11 IST" name="setUp" finished-at="2026-04-17T16:39:14 IST" duration-ms="3698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProfilePageLoadsAfterLogin()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:14 IST" name="verifyProfilePageLoadsAfterLogin" finished-at="2026-04-17T16:39:17 IST" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProfilePageLoadsAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.curahealth.tests.FormValidationTests@20d525]" started-at="2026-04-17T16:39:17 IST" name="tearDown" finished-at="2026-04-17T16:39:17 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.curahealth.tests.FormValidationTests -->
+    </test> <!-- Form Validation Tests -->
+  </suite> <!-- Cura Healthcare Automation Suite -->
+</testng-results>
