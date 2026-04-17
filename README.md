@@ -186,12 +186,9 @@ You can configure:
 
 
 
----
 
 
 
 
-* Ensure Java and Maven are installed before running tests
-* Use `.gitignore` to exclude unnecessary files like `/target`, `/reports`, and `/screenshots`
 
----
+
